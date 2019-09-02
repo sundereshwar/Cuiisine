@@ -10,7 +10,7 @@ const NavbarStyled = styled.div`
   width: 100%;
   z-index: 999;
   display: flex;
-  justify_content: space-between;
+  justify-content: space-between;  
 `;
 
 const Logo = styled(Title)`
@@ -20,10 +20,10 @@ const Logo = styled(Title)`
 `;
 
 const UserStatus = styled.div`
-    color: white;
-    font-size: 12px;
-    margin-left: 1700px;
-`;
+  color: white; 
+  font-size: 12px; 
+  margin-right: 30px; 
+`
 
 export function Navbar() {
   return (
